@@ -46,7 +46,7 @@ a {
 }
 
 nav {
-  width: 440px;
+  width: 350px;
   display: flex;
   justify-content: space-between;
 }
@@ -60,7 +60,7 @@ nav {
 .navbar {
   color: #72615e;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
   transition: 0.2s ease-in-out;
 }
 
@@ -91,7 +91,7 @@ nav {
   margin-top: 150px;
   margin-bottom: 20px;
   text-align: center;
-  width: 440px;
+  width: 345px;
 }
 
 @media (min-width: 600px) {
