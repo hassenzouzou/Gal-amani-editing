@@ -4,6 +4,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.index {
+  background-color: #f7dcb9;
+}
+
 header {
   padding: 25px 0px;
   display: flex;
@@ -81,14 +85,6 @@ nav {
   align-items: center;
   background-color: #f7dcb9;
   padding-top: 95px;
-  padding-bottom: 404px;
-}
-
-@media (min-width: 600px) {
-  .main {
-    padding-top: 95px;
-    padding-bottom: 237px;
-  }
 }
 
 .presentation {
@@ -188,8 +184,16 @@ span {
 
 .vid {
   width: 250px;
-  margin-left: 30px;
+  margin-left: 0px;
   margin-bottom: 30px;
+  gap: 30px;
+}
+
+@media (min-width: 600px ) {
+  .vid {
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 .contact {
